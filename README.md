@@ -13,7 +13,7 @@ will also be 2 additional entries for the repo and branch creation.
 - Clone this repo
 - Delete `.git/`
 - Create a repo in gitea
-- Clone the repo to the current directory `git clone <url> .`
+- Clone the repo and move the python script into it
 - Run `python generate_heatmap.py`
 - Update SQLite with the `update_action.sql` file
 - Update the 2 first entries in the `action` table to the previous day for simplicity
